@@ -7,7 +7,7 @@ dependencies {
 }
 
 application {
-    mainClass = 'apexstore.backend.PasarelasMain'
+    mainClass = 'apexstore.pasarelas.PasarelasMain'
 }
 
 tasks.named('run') {

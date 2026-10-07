@@ -7,7 +7,7 @@ dependencies {
 }
 
 application {
-    mainClass = 'apexstore.backend.ClientesMain'
+    mainClass = 'apexstore.clientes.ClientesMain'
 }
 
 tasks.named('run') {
