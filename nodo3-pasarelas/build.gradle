@@ -1,0 +1,15 @@
+plugins {
+    id 'application'
+}
+
+dependencies {
+    implementation project(':contratos')
+}
+
+application {
+    mainClass = 'apexstore.backend.PasarelasMain'
+}
+
+tasks.named('run') {
+    workingDir = file('src/main/resources')
+}
